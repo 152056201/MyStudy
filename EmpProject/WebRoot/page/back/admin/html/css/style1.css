@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.all{
+	height: 60px;
+	width: 100%;
+	position: relative;
+}
+.head{
+	width: 100%;
+	height: 40px;
+	background: #192f44;
+}
+.head p{
+	font-size: 12px;
+	color: #fff;
+	margin-left: 800px;
+	padding-top: 14px;
+}
+.head button{
+	margin-left: 1000px;
+	position: absolute;
+	left: 200px;
+	top: 10px;
+	background: #ccc;
+}
+.section{
+	width: 100%;
+	height: 20px;
+	background: #e1e7ed;
+	border-bottom: 1px solid #666;
+}
+.se{
+	height: 30px;
+	width: 500px;
+	font-size: 30px;
+	color: #048af7;
+	position: absolute;
+	left: 80px;
+	top: 16px;
+}
+.main{
+	width: 100%;
+	height: 630px;
+	background: #eff2fd;
+	display: flex;
+}
+.left{
+	width: 185px;
+	height: 200px;
+}
+.left ul li{
+	height: 28px;
+	width: 185px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.left ul li:nth-child(1){
+	border-bottom: 3px solid #c2d163;
+}
+.left ul li:nth-child(2){
+	border-right: 2px solid #9aa0aa;
+	border-bottom: 1px solid #d1d3d5;
+}
+.left ul li:nth-child(3){
+	border-right: 2px solid #9aa0aa;
+	border-bottom: 1px solid #d1d3d5;
+}
+.left ul li:nth-child(8){
+	border-right: 2px solid #9aa0aa;
+	border-bottom: 1px solid #d1d3d5;
+}
+.right{
+	margin-left: 50px;
+}

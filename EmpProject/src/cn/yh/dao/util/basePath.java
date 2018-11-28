@@ -1,0 +1,12 @@
+package cn.yh.dao.util;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class basePath {
+	public static String getBasePath(HttpServletRequest request) {
+		String path = request.getContextPath();
+		String basePath = request.getScheme()+"://"+request.getServerName()+
+				":"+request.getServerPort()+path+"/";
+		return basePath;
+	}
+}
